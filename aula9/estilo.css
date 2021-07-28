@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.center{
+    box-sizing: content-box; /*--> a cerca do tamanho da caixa de dentro*/
+    width: 1280px;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+.artigo{
+    box-sizing: border-box;
+    border: 5px solid red;
+    vertical-align: top;/*vai ,echer na posição no paragrafo*/
+    margin-top: 30px;
+    margin-right: -4px;
+    display: inline-block;/*ele vai transformar o elemento que é block para o inline*/
+    width: 640px;    
+}
+
+/*
+aprendemos o Display e os tipos de Border
+
+outline: 1px solid red --> quase a mesma coisa do border, ele tabem fica fora do fluxo do elemento pai
+
+display: inline; --> 
+*/

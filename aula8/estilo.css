@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.center{
+    box-sizing: border-box; /*--> a cerca do tamanho da caixa de dentro*/
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: gray;
+}
+
+.artigo{
+   width: 100%;
+  /* margin-right: 80px;
+   margin-left: 80px; 
+   margin-top: 50px;*/
+   margin-bottom: 40px;
+}
+
+/*
+estudo do padding e da margin
+*/
