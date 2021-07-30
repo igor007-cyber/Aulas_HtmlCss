@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+.pai{
+    width: 1280px;
+    padding: 20px 0;
+    margin: 20 auto;
+    background: blue;
+}
+
+.child{
+   /* display: inline-block;
+    margin-right: -4px;*/
+    box-sizing: border-box;
+    width: 640px;
+    height: 300px;
+    background: red;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px 0;
+    border: 1px solid black;
+}
+
+/*
+ aqui ele falou do float, do border e do clear:both; 
+*/
