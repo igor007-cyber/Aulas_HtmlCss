@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    width: 900px;
+    background-color: red;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.menu  a{
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid blue;
+    padding: 8px;
+}
+/*
+div.menu{
+    width: 400px; ------> Quanto tem maior especificação prevalece
+}
+
+.menu > a{
+    color: green
+}
+
+.menu  a{
+    color: green
+}
+
+*/

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+/*
+a[href="https://www.google.com"]{
+    color: chartreuse;
+    background-color: crimson;
+}
+
+[href="https://www.google.com"]{
+    background-color: crimson;
+}
+
+a[href*="goo"], a[href*="youtube"]{      ---->[href*="youtube"] => o asterisco representa, se   
+    background-color: crimson;                   a palavra contem na declaração que a pessoa      
+}                                                colocou.   
+
+
+a [attr ~= "google"]{               -----> [attr ~= "google"] => esse sinal representa para 
+    background-color: darkcyan;            procurar algo nos espaços na declaração 
+}
+
+
+a [attr |= "google"]{           ----------> [attr |= "google"] => Esse sinal só funciona 
+    background-color: darkgoldenrod;        com a declaração de uma unica palavra e com separação por traço
+}
+
+
+a [attr ^= "go"]{               ----------> a [attr ^= "google"] => Esse sinal só funciona 
+    background-color: darkgoldenrod;            quando começa com a palavra declarada
+}
+
+
+a [attr $= "google"]{             -------> a [attr $= "google"] => Esse sinal funciona 
+    background-color: darkgray;            quando a palavra tiver no final na declaração    
+}
+*/
+
+.text[type=text]{
+    background-color: darkgreen;
+}
+
+input[type=submit]{
+    background-color: darkred;
+}
+
+
+/*
+MANIPULANDO ATRIBUTOS
+*/

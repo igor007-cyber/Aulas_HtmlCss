@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.artigo{
+    width: 1288px;
+    background-color: rgb(200, 200, 200);
+    padding: 40px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.artigo h1{
+    color: #7e16c4;
+    font-size: 30px; /*----> 1em -> significa 100% do tamanho padrão | 2em -> significa 200% do tamanho padrão e assim por diante*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*tipo de fonte de texto*/
+    font-style: oblique; /*estilo do texto*/
+    font-weight: normal; /*ele deixa negrito ou não*/
+    font-variant: small-caps;
+}
+
+.artigo p{
+   text-align: left;
+   color: #1a636b;
+   font-size: 17px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   line-height: 40px; /*----> line-height, ele faz o espaçamento de linhas*/ 
+   margin-top: 12px;
+   letter-spacing: 10px; /*ele faz o espaçameto entre a letras */
+}

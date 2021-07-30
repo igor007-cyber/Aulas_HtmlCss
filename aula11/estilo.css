@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+.box, .box2{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    background: gray;
+    /*overflow: scroll; overflow: hidden; ----> ele deixa as coisas ocultas*/
+                     /* overflow: scroll; ----> ele deixa um scroll bar sem precisar*/
+                     /* overflow: visible; ----> ele deixa da mesma forma que tá, mas se algo ultrapassar ele não segue*/
+    overflow-x: scroll;/*pode colocar uma scroll bar ou nao, so que esse comando ele coloca na */
+    /**/
+}     
+
+.box p, .box2 p{
+    width: 100%;
+}
+
+.box2{
+    background-color: red;
+    margin-top: 20px;
+    display: block;
+    /*display: none; ---> ele faz desaparecer o elemento, que quer dizer que ele para de calcular o elemento*/
+}

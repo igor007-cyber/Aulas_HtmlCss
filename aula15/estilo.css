@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.bg{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+
+    background-color: darkviolet #ccc rgb(200, 200, 200) rgba(300,400,500,0.7);
+    background-image: url('imagens/img1.jpeg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+/*
+ESTUDO DO BACKGROUND
+*/

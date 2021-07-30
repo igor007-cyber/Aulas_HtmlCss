@@ -1,0 +1,13 @@
+#div1 h1{
+    color: red;
+}
+
+/*
+#div1 > h1{
+    color: red;     ataque o h1 se estiver dentro da div1, poque é a filha da div1(nesse caso)
+}
+*/
+
+.div2 h1{
+    color: green;
+}
