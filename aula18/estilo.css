@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+/*
+ul li:nth-of-type(2){ -----> nesse comando, ele só vai atacar o mesmo elemento que está dentro na declaração 
+    color:red;               Ele vai atacar o tipo de elemento;   
+}*/
+
+/*
+ul li:nth-child(3){ ----> nesse comando, ele só vai atacar o elemento que está dentro na declaração na seguencia;
+    color: red;           Ele vai atacar de acordo com os filhos;  
+}
+*/
+
+.box{
+    width: 100%;
+}
+
+.box > div{
+    box-sizing: border-box;
+    float: left;
+    width: 33,3%;
+    height: 400px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+/*
+.box div:last-of-type, box p:last-of-type{ ----> nesse comando, pega o ultimo elemento 
+    background-color: green;
+}
+
+.box p:last-of-type{
+    background-color: rgb(200, 200, 200);   
+}
+
+
+.box > div:last-of-type p{
+    color: rgba(255, 255, 255, 1);
+}
+*/
+
+.p::after{  /*-----> esse comando adicona antes*/
+    content: " igor";
+}
+
+.p::before{ /*-----> esse comando adicona depois*/
+    content: "igor ";
+}
+
+/*
+p:empty{ ---> esse comando corresponde a cada elemento que não possui filhos 
+    width: 400px;
+    height: 400px;
+    background-color: rebeccapurple;
+}
+*/
+
+/*
+.box div:not(.one){ ----> Esse comando, aplica a negação do elemento
+    background-color: royalblue;
+}*/
+
+/*
+ESTUDO DA PSEUDO CLASSE PARTE 2
+*/
