@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+.teste,.teste1,.teste2{
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline-block;
+    height: 300px;
+    background-color: #ccc;
+}
+
+.teste1{
+    background-color: rgb(98, 98, 98);
+}
+
+.teste2{
+    background-color: rgb(50, 50, 50);
+}
+/*
+.teste:hover{ -----> esse comando só funciona quando passa o mouse por cima do elemento
+    /*position: absolute;
+    left: 90px;
+    top: 130px;
+    height: 900px;
+    background-color: blue;
+}
+
+.teste:hover, .teste1, .teste2{
+    vertical-align: top;
+}*/
+
+/*
+.teste:active{  ------> esse comando funciona quando tiver pressionado em cima do elemento
+    background-color: blueviolet;
+}*/
+
+/*
+.teste:focus{ -----> esse comando só serve pra formulario, com isso ele foca no elemento que vai ser utilizado
+    background-color: red;
+}
+
+.textarea1{
+    display: block;
+    width: 600px;
+    height: 400px;
+}*/
+
+/*
+.link1:visited{ ------> esse comando serve para quando for pra algum link, ele vai deixar marcado no site
+    color: chartreuse;
+}
+*/
+
+/*
+.link1:link{-------> esse comando deixa a cor que voce deseja no link
+    color:orange;
+}*/
+/*ESTUDO DE PSEUDO CLASSES*/
