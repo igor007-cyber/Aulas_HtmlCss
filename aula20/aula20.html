@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula 20</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        
+        <form action="">
+            <fieldset>
+                <legend>Meu Formulário</legend>
+                <div><input type="text" name="nome" placeholder="Digite o seu nome"></div>
+                </div><input type="text" name="email" placeholder="Digite o seu email"></div>
+                <div>
+                    <select name="lista">
+                        <option disabled selected>Qual sua idade?</option><!--disabled selected --) ele desabilita o texto para ele ser um placeholder-->
+                        <option>20</option>
+                        <option>25+</option>
+                        <option>40+</option>
+                    </select>
+                </div>
+
+                <h2>Qual a sua cidade?</h2>    
+                <div class="radio-input">
+                    <div>
+                        <input type="radio" name="cidade" value=""/><span>Florianópolis</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="cidade" value=""/><span>São Paulo</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="cidade" value=""/><span>Rio de Janeiro</span>
+                    </div>
+                </div>
+
+                <h2>O que voce gosta de comer?</h2>    
+                <div class="input">
+                    <div>
+                        <input type="checkbox" name="comida" value=""/><span>Fruta</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="comida" value=""/><span>Fast Food</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="comida" value=""/><span>Salada</span>
+                    </div>
+                </div>
+
+                <div>
+                    <textarea placeholder="fale sobre oque voce quer"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" name="acao" value="Enviar!">
+                </div>
+            </fieldset>
+        </form>
+
+    </body>
+</html>
