@@ -6,3 +6,62 @@
 html,body{
     height: 100%;
 }
+
+input [type=file]{
+    display: none;
+}
+
+/*
+label{
+    display: block;
+    cursor: pointer;
+    font-size: 17px;
+    margin: 20px auto;
+    width: 220px;
+    height: 40px;
+    background-color: #ccc;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+*/
+
+form{
+    text-align: center;
+    background-color: #ccc;
+    padding: 30px 0;
+}
+/*
+form select{
+    width: 220px;
+    height: 40px;
+    border: 0;
+    background-image: url("https://elements-video-cover-images-0.imgix.net/files/96384844-eee4-46b1-bb8a-2e4634f6ee59/inline_image_preview.jpg?auto=compress%2Cformat&fit=min&h=394&w=700&s=dfcfaea3a8b29e060739ec8fb48290d7");
+    background-position: center;
+    appearance: none;
+    color: white;
+    padding-left: 90px;
+  /*-webkit-appearance: none; ---> 'webkit' representa o chrome e o safari
+    -moz-appearance: none; -----> 'moz' representa o mozilla
+}
+
+select::-ms-expand{/*----> só funciona no internet explorer
+    display: none;
+}
+*/
+input [type=checkbox]{
+    display: none;
+}
+
+label{
+    margin: 0 60px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+}
+
+input [type=checkbox]:checked + label{ /*esse sinal '+' está representando para o proximo elemento, o elemento abaixo dele*/
+    background-color: red;
+    width: 50px;
+}

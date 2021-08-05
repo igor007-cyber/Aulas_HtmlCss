@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+/*IMPORTAR FONTES NO GOOGLE FONTES*/
+
+@font-face {
+    font-family: "minha fonte";
+    src: url(fontes/IndieFlower-Regular.ttf);
+}
+
+/*
+.box p{
+    font-family: minha fonte;
+}
+
+.text{
+    font-family: Georgia, 'Times New Roman', Times, serif !important;/*o !important --> diz que é o mais importante execultar esse elemento primeiro
+}
+*/
+
+form *{
+    font-family: minha fonte;
+}
