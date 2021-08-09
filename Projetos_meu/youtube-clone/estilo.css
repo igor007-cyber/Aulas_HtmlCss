@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*=============================================================*/
+
+.menu{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.tamanho_logo{
+    height: 80px;
+}
+
+form{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+
+
