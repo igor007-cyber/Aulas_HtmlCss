@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box  ;
+}
+
+html,body{
+    height: 100%;
+}
+/*=================================================================*/
+
+/* MEU MENU */
+#menu{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    background-image: url('https://alexrosa.net/wp-content/uploads/2016/07/wallpaper_1366x768_workstation-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#links li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 20px;
+    margin-top: 20px;
+    padding: 15px;
+    border-left: 1px solid white;
+}
+
+a{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin:10px;
+    margin-left: 40px;
+    padding: 15px;
+}
+
+a:hover{
+    color: greenyellow;
+}
+
+#links li.tirar{
+    border-left: none;
+}
+/* FIM DO MEU MENU */
+
+/*===============================================================*/
+
+/* CONTEUDO 1: LINGUAGENNS DE PROGRAMAÇÃO */
+
+#linguagens{
+    width: 100%;
+    background-image: url("https://wallpaperaccess.com/full/2061120.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    text-align: left;
+    color: white; 
+}
+
+.tipos-de-linguagens{
+   width: 100%;
+   margin-top: 25px;
+   text-align: center;
+}
+
+.icone-mecher img{
+    margin-bottom: 25px;
+}
+
+h1{
+    padding-top: 2px;
+    padding-left: 20px;
+    font-size: 25px;
+    color:#0310BF;
+    width: 480px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+hr{
+    margin-top: 25px;
+}
+
+.img{
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+
+/* FIM DO CONTEUDO 1 */
+
+/*===========================================*/
+
+/* SOBRE MIM */
+
+#eu{
+    width: 100%;
+    background-image: url("https://images2.alphacoders.com/480/480530.png");
+    background-attachment: fixed;
+    color: white;
+}
+
+#eu img{
+   margin-top: 40px; 
+   margin-left: 120px;
+}
+
+.sobre{
+    text-align: justify;
+    width: 600px;
+    height: 400px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.sobre h2, .sobre p{
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sobre h2{
+    font-size: 30px;
+}
+
+.sobre p{
+    font-size: 20px;
+}
+
+.butao{
+    margin-left: 180px;
+}
+
+.butao [type=button]{
+    width: 150px;
+    height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border: none;
+}
+
+@media screen and (max-width:500px){
+    .sobre{
+        width: 300px;
+        height: 200px;
+    }
+    .sobre h2, .sobre p{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* FINAL: SOBRE MIM */
+
+/*=====================================*/
+
+/* CONTATO */
+
+#contato{
+    position: relative;  
+    width: 100%; 
+}
+
+.contato1{
+    display: inline-block;
+    height: 400px;
+}
+
+.con{
+    position: absolute;
+    top: 20px;
+    left: 45%;
+}
+
+.tato{
+    position: absolute;
+    top:65px;
+    right: 40px;
+}
+
+.Fomulario{
+    padding: 5px;
+}
+
+.Fomulario label, .Fomulario p{
+    font-weight: bold;
+}
+
+.Fomulario [for=name], .Fomulario [for=email], .Formulario[id=mensagem]{
+    font-size: 16px;
+}
+
+.Fomulario [id=name], .Fomulario [id=email]{
+    margin-top: 5px;
+    width: 500px;
+    height: 30px;
+}
+
+.Fomulario [name=mensagem]{
+    margin-top: 5px;
+    width: 500px;
+    height: 200px;
+    resize: none;
+}
+/* FINAL: CONTATO */
+
+/*RODAPÉ*/
+
+.rodape{
+    width: 100%;
+    height: 400px;
+    margin-top: 500px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: black;
+}
+
+.rodape a{
+    margin: 0px -5px 0px -5px;
+
+}
+
+.rodape h2{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.rodape h2{
+    margin-top: 150px;
+}
+
+
+
+/*FIM DO RODAPÉ*/
