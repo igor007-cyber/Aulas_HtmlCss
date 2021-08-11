@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+/*
+.sidebar{
+    width: 300px;
+    height: 100%;
+    background-color: black;
+    float: left;
+}
+
+.content{
+    float: left;
+    width: calc(100% - 300px);
+    height: 100%;
+    background-color: #ccc ;
+}
+
+
+.box{
+    width: calc((1000% / 3) + 90px);
+    height: 90px;
+    background: red;
+}
+
+*/
+
+.box{
+    width: 100vw; /* vw => Viewport width =  largura do viewport */ 
+    height: 90vh; /* vh => Viewport height =  altura do viewport */
+    background-color: springgreen;
+}
+/* vw,vh => eles nao levao a considereção da scroll bar */
+
+.box2{
+    width: 200%;
+    height: 10px;
+}
+
+/*
+    APRENDEMOS VW, VH, CALC;
+*/
