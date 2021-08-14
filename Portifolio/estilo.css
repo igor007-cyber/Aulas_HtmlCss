@@ -21,12 +21,25 @@ html,body{
     background-position: center;
 }
 
-#links li{
+.logo{
+    float: left;
+    background-color: black;
+    border-radius: 0 150px 150px 0;
+    margin-top: 20px;
+    margin-left: -50px;
+}
+
+.links{
+    float: right;
+    margin-top: 50px;
+}
+
+.links li{
     display: inline-block;
     list-style-type: none;
     margin: 0px 20px;
     margin-top: 20px;
-    padding: 15px;
+    padding: 10px;
     border-left: 1px solid white;
 }
 
@@ -38,15 +51,31 @@ a{
     margin:10px;
     margin-left: 40px;
     padding: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
 }
 
 a:hover{
     color: greenyellow;
 }
 
-#links li.tirar{
+.links li.tirar{
     border-left: none;
 }
+
+@media screen and (max-width: 1191px){
+    .links{
+        float: left;
+        margin-left: -1px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .links{
+        margin-top: 10px;
+    }
+}
+
 /* FIM DO MEU MENU */
 
 /*===============================================================*/
@@ -101,22 +130,32 @@ hr{
 /* SOBRE MIM */
 
 #eu{
-    width: 100%;
+    width: 100vw;
     background-image: url("https://images2.alphacoders.com/480/480530.png");
     background-attachment: fixed;
     color: white;
+    position: relative;
 }
 
-#eu img{
+.ajustar{
+    width: 100%;
+ 
+}
+
+.img-eu img{
+   width: 350px;
+   height: 350px; 
    margin-top: 40px; 
    margin-left: 120px;
 }
 
 .sobre{
+    position: absolute;
+    top: 0;
+    right: 0;
     text-align: justify;
-    width: 600px;
+    width: 470px;
     height: 400px;
-    float: right;
     margin-right: 100px;
     margin-top: 100px;
 }
@@ -135,30 +174,51 @@ hr{
     font-size: 20px;
 }
 
-.butao{
-    margin-left: 180px;
-}
-
-.butao [type=button]{
-    width: 150px;
-    height: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    background-color: black;
-    font-weight: bold;
-    border: none;
-}
-
-@media screen and (max-width:500px){
+@media screen and (max-width: 970px){
+    #eu{
+        height: 900px;
+    }
+    
+    .img-eu img{
+        margin-left: 50px;
+    }
     .sobre{
-        width: 300px;
-        height: 200px;
-    }
-    .sobre h2, .sobre p{
-        width: 100%;
-        height: 100%;
+        position: relative;
+        margin-left: 100px;
+        width: 65%;
+        height: 65%;
     }
 }
+
+@media screen and (max-width: 414px){
+    #eu{
+        height: 1000px;
+    }
+
+    .sobre{
+        margin-top: 15px;
+        margin-left: 60px;
+    }
+
+    .img-eu img{
+        width: 80%;
+        height: 80%; 
+    }
+}
+
+@media screen and (min-width: 971px){
+    #eu{
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    #eu{
+        height: 110 0px;
+    }
+
+}
+
 
 /* FINAL: SOBRE MIM */
 
@@ -212,6 +272,21 @@ hr{
     height: 200px;
     resize: none;
 }
+
+.butao{
+    margin-left: 180px;
+}
+
+.butao [type=button]{
+    width: 150px;
+    height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border: none;
+}
+
 /* FINAL: CONTATO */
 
 /*RODAPÉ*/
