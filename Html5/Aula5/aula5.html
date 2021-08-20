@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <meta name="description" content="Descriçaõ do site">
+        <meta name="keywords" content="palavras, separadas, por, virgulas">
+        <meta name="author" content="igor familia"> 
+        <title>Videos</title>
+        <link rel="stylesheet" href="estilo.css">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            iframe{
+                width: 500px;
+                height: 500px;
+                border: 0;
+            }
+
+            video{
+                width: 500px;
+            }
+
+            .header{
+                width:100%;
+                height: 40vh;
+                max-height: 700px;
+                overflow: hidden;
+                position: relative;    
+            }
+
+            .header video{
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-40%);
+                width: 100%;
+            }
+
+            .overlay{
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: 1;
+                width: 100%;
+                height: 100%;
+                transition: 0.7s;
+                background: rgba(0, 0, 0, 0.7);
+            }
+
+            .overlay:hover{
+                background-color: rgba(0, 0, 0, 0);
+            }
+
+            .overlay{
+                padding: 20px 0;
+                text-align: center;
+                color: white;
+                font-size: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- COLOCAR SITES -->
+        <iframe src="http://silveiras.sp.gov.br/"></iframe>  
+        
+        <br><br><br>
+        <!-- COLOCAR VIDEOS:  controls, autoplay, loop, muted-->
+      
+        <div class="header">
+            <div class="overlay">
+                <h2>Meu site!</h2>
+            </div>
+            <video autoplay loop>
+                <source src="video/hmmm.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </body>
+</html>

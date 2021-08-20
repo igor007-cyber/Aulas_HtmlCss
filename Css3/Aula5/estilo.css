@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTUDO DO BORDER-RADIUS */
+/*
+.box{
+    width: 30%;
+    padding-top: 30%;
+    background-color: black;
+    margin: 50px auto;
+    position: relative;
+}
+
+.teste{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: black;
+}
+*/
+/*
+    ESTUDO SOBRE TRANSFORM
+*/
+.transform{
+    /*transform: translate(-50%,-50%); Ele centraliza os elementos ou independente da posição que deseja*/
+    /*transform: translateX(-50%) translateY(-50%);/*horizontal e vertical | ele meche nas dimensões do elemento referente ao meio*/
+    -ms-transform: translate(-50%,-50%);/*----> pra ultilizar em todos os navegadores*/
+    transform: translate(-50%,-50%);
+    width: 40%;
+    max-width: 500px;
+    height: 500px;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transition: 2s;
+    animation-name: efeito;
+    animation-duration: 3s;
+}
+
+@keyframes efeito {
+    0%{
+        transform: translate(-50%,-50%) rotateY(0deg);        
+    }
+
+    50%{
+        transform: translate(-50%,-50%) rotateY(180deg);        
+    }
+
+    100%{
+        transform: translate(-50%,-50%) rotateY(0deg);        
+    }
+}
+
+.transform:hover{
+    /*transform: translate(-50%,-50%) rotate(45deg) scale(2,2);*/
+    transform: translate(-50%,-50%) rotateX(180deg);
+}
