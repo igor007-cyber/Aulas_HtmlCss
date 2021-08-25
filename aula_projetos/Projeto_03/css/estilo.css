@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 90vh;
+    padding: 40px 2%;
+    max-height: 700px;
+    background-image: url('../imagens/capa.png');
+    background-size: cover;
+    background-position: center;
+}
+
+header .logo{
+    margin-top: -60px;
+    float: left;
+    width: 300px;
+    height: 200px;
+    background-image: url('../imagens/WhatsApp_Image_2021-08-12_at_10.55.51-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    float: left;
+    padding: 0 20px;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.chamada1{
+    max-width: 600px;
+    float: right;
+    margin: 10px 150px;
+}
+
+.chamada1 h2{
+    font-size: 40px;
+    color: white;
+    font-weight: normal;
+}
+
+.chamada1 p{
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+}
+
+section.sessao1 .container{
+    max-width: 1000px;
+}
+
+.sessao1{
+    width: 100%;
+    background-color: #472562;
+    padding: 0px 2%;
+}
+
+.texto-sessao1{
+    float: left;
+    width: 50%;
+    color: white;
+}
+
+.texto-sessao1 h2{
+    font-weight: 300;
+}
+
+.texto-sessao1 p{
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.texto-sessao1 ul{
+    list-style-position: inside;
+    font-size: 13px;
+}
+
+.texto-sessao1 ul li{
+    float: left;
+    width: 100%;
+}
+
+.device-sessao1{
+    float: left;
+    width: 50%;
+    height: 300px;
+    background-image: url('../imagens/device.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.btn1-texto{
+    background-color: #FF703D;
+    width: 165px;
+    height: 44px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 30px;
+}
