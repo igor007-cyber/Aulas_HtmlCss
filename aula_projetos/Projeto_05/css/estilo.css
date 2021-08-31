@@ -6,5 +6,130 @@
 
 html,body{
     height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.clear{
+    clear: both;
+}
+
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 20px 2% 35px 2%;
+    height: 130px;
+}
+
+header div.logo{
+    float: left;
+}
+
+header nav.desktop{
+    float: right;
+    position: relative;
+    top: 40px;
+}
+
+header nav.desktop ul{
+    list-style-type: none;
+}
+
+header nav.desktop ul li{
+    float: left;
+    font-size: 23px;
+    padding: 0 30px;
+    font-style: italic;
+}
+
+header nav.desktop a{
+    color: black;
+    text-decoration: none;
+
+}
+
+section.banner{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    background-image: url(../imagem/bg.jpg);
+    background-size: contain;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.text-banner{
+    padding: 100px; 
+}
+
+.text-banner-single{
+    width: 314px;
+    height: 60px;
+    color: white;
+    font-style: italic;
+    margin-top: 20px;
+    font-size: 23px;
+    text-transform: uppercase;
+    background-image: url('../imagem/box-text.png');
+    background-size: 100% 100%;
+    padding: 12px 30px;
+}
+
+.text-banner .text-banner-single:nth-of-type(2){
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: -10px;
+}
+
+.text-banner .text-banner-single:nth-of-type(3){
+    width: 170px;
+    height: 50px;
+    position: relative;
+    left: -20px;
+}
+
+.text-banner .text-banner-single:nth-of-type(4){
+    width: 320px;
+    height: 50px;
+    color: black;
+    position: relative;
+    left: -30px;
+    background-image: url(../imagem/box-white-text.png);
+}
+
+@media screen and (max-width: 580px){
+    .text-banner{
+     padding: 30px; 
+    }
+
+    .text-banner-single{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 720px){
+    nav.desktop{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    section.banner{
+        background-size: 90% auto;
+        background-position: 200% 100%;
+    }   
+}
+
+@media screen and (max-width: 1024px){
+    section.banner{
+        background-size: cover;
+        background-position: center;
+        height: 70vw;
+        min-height: 500px;
+    }
+}
