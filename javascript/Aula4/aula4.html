@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        window.onload = function(){
+            //  ARRAY
+            var nome1 = [];
+
+            nome1[0] = 'igor';
+            nome1[100] = "ian";
+
+            console.log(nome1[100]);
+            // OBJETO
+
+            var animal = {}; //Declarando um animal um objeto
+
+            animal.nome = 'Cachorro';
+            animal.peso = '24kg';
+            animal.idade = 23;    
+            animal['idade'] = 24;
+            animal.pessoa = []
+
+            animal.pessoa[0] = 'ian';
+            animal.pessoa[1] = 'jorge';
+
+            console.log(animal.idade);
+            console.log(animal['idade']);
+            console.log(animal.pessoa[0]);
+        }
+    </script>
+</body>
+</html>
