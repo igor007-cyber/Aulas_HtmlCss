@@ -1,6 +1,7 @@
 // TIPOS DE FUNÇÃO
 window.onload = function(){
 
+    //FUNÇÃO
     var teste = 'igor'
 
     function nomeFuncao(num1,num2){
@@ -16,6 +17,8 @@ window.onload = function(){
 
     nomeFuncao(10,20)
 
+   
+   
     // POSSO COLOCAR UMA FUNÇÃO DENTRO DA VARIAVEL
     var variavel = function(){
         console.log("uma função dentro da variavel")
