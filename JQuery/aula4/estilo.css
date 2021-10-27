@@ -13,3 +13,16 @@ html, body{
     padding: 30px;
     background: blueviolet;
 }
+
+.artigo2{
+    width: 100%;
+    padding: 30px;
+    background: blue;
+}
+
+.box1{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #ccc  ;
+}

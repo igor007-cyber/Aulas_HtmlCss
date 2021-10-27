@@ -8,8 +8,8 @@ $(window).on('load',function(){
     alert('ola mundo')
 })
 
+*/
 
 $(function(){
     alert('ola mundo')
 })
-*/
